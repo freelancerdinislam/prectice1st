@@ -1,0 +1,427 @@
+/* font decoration */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+/* background */
+body {
+  background-image: url(https://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/City_Landscape_Background.jpg);
+  height: 1200px;
+  width: 1300px;
+  background-repeat: no-repeat;
+  background-size: 1300px 615px;
+}
+
+/* Text Decoration */
+h2 {
+  color: white;
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-family: arial;
+  color: white;
+  margin-left: 5px;
+}
+
+/* font customise with class & Id */
+#idCustomise {
+  font-family: monospace;
+  color: yellow;
+  margin-left: 5px;
+}
+
+
+#id1 {
+  font-family: fantasy;
+  color: white;
+  margin-left: 5px;
+}
+
+.ClassA {
+  font-family: serif;
+  color: yellow;
+  background-color: red;
+  margin: 5px 0px 0px 5px;
+  padding: 10px 5px;
+  animation-name: one;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  position: relative;
+  overflow:hidden;
+  transition-duration: 2s;
+}
+
+.ClassA:hover{
+
+  cursor: pointer;
+  background: rgb(255, 108, 179);
+}
+@keyframes one {
+  from {left:1200px; }
+  to { left: 0px;}
+}
+
+
+.ClassB {
+  font-family: serif;
+  color: white;
+  background-color: green;
+  margin: 0px 0px 5px 5px;
+  padding: 10px 5px;
+  animation-name: two;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  position: relative;
+  overflow:hidden;
+  transition-duration: 2s;
+}
+.ClassB:hover{
+
+  cursor: pointer;
+  background:rgb(6, 255, 177);
+}
+@keyframes two {
+  from {right:1200px; }
+  to { right:0px;}
+}
+
+/* Div in html */
+.mydiv1 {
+  height: 395px;
+  width: 600px;
+  background-color: green;
+  margin: 5px 5px;
+  float: left;
+}
+img{
+  float: left;
+  opacity: 50%;
+  transition-duration:5s;
+}
+img:hover{
+
+  opacity: 100%;
+  cursor: pointer;
+}
+
+
+.childdiv {
+  height: 300px;
+  width: 500px;
+  background-color: red;
+}
+
+.childdiv2 {
+  height: 200px;
+  width: 400px;
+  background-color: yellow;
+}
+
+.heading{
+  width: 299px;
+  height: 66px;
+  background: red;
+  float: left;
+  margin: 0px 0px 0px 289px;
+  padding: 27px 0px 0px 0px;
+  position: relative;
+
+}
+.heading >h1{
+margin:auto;
+position: relative;
+text-align: center;
+}
+
+#overflow {
+  border: solid 2px redrgb(238, 238, 238);
+  height: 298px;
+  width: 300px;
+  overflow: scroll;
+  float: left;
+  margin-left: 388px;
+  position: relative;
+  color: white;
+}
+
+
+
+/* Animation */
+
+#animate {
+  height: 100px;
+  width: 100px;
+  background: red;
+  border-radius: 50%;
+  animation-name:rana;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
+  position:relative;
+  float: left;
+  transition-duration: all 2s;
+}
+@keyframes rana {
+  0% {left:0px; left:0px; background: red;}
+
+  25% {left:265px;top: 0px; background: white;}
+
+  50% {top:250px;left: 265px; background: orange;}
+
+  75% {left: 0px;  top: 250px; background: rgb(0, 213, 111)}
+
+  100% {top:0px;  left: 0px; background: rgb(76, 3, 231)}
+}
+#animate:hover{
+
+  animation-play-state: paused;
+  cursor: pointer;
+
+}
+
+audio{
+  width: 1280px;
+  height: 50px;
+  margin-left: 5px;
+  background: red;
+  border-radius: 10px;
+  padding: 5px;
+}
+.video1{
+  height: 330px;
+  width: 580px;
+  margin-left: 35px;
+  border: solid 10px red;
+  border-radius: 10px;
+}
+iframe {
+
+  height: 330px;
+  width: 580px;
+  margin-left: 20px;
+  border: solid 10px red;
+  border-radius: 10px;
+}
+
+/* ul{
+  list-style-type: square;
+  margin-left: 25px;
+
+}*/
+table{
+  width: 1300px;
+  border: solid 2px black;
+  border-collapse: collapse;
+  margin-left: 10px;
+  background: #ddd;
+}
+
+table th, tr, td {
+  border:solid 1px red;
+  text-align: center;
+}
+.caption{
+background: red;
+color: white;
+}
+.total{
+  background: green;
+  color: white;
+}
+
+.totalusd{
+  background: yellow;
+  color: black;
+}
+
+.formdiv{
+  margin: 10px 10px;
+  background: rgb(2, 49, 140);
+  width: 1300px;
+  height: 100px;
+}
+.email{
+  float: left;
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-left: 580px;
+  color: white;
+}
+.logo{
+  float: left;
+  margin: 56px 0px 0px 125px;
+
+}
+.facebook{
+  color: white;
+}
+
+.password{
+  float: left;
+  margin-top: 15px;
+  color: white;
+}
+
+button{
+  margin-top: 32px;
+  margin-left: 10px;
+}
+#mydiv1{
+    width: 800px;
+    height: 415px;
+    /* background: rgb(217, 217, 217); */
+    margin-left: 10px;
+    float: left;
+}
+.intor {
+  width: 500px;
+  height: 400px;
+  margin: 40px 0px 0px 120px;
+
+}
+.Createintro{
+  color: black;
+
+}
+
+#div2{
+  width: 490px;
+  height: 415px;
+  /* background: rgb(217, 217, 217); */
+  float: left;
+}
+.Createheading{
+  margin: 20px 0px 0px 0px;
+  font-size:45px;
+}
+.Createheading2{
+  font-size: 20px;
+}
+
+form > input[type="text"] {
+  padding: 4px;
+  border-radius: 5px;
+}
+form > input[type="password"] {
+  padding: 4px;
+  border-radius: 5px;
+  width: 350px;
+  margin-top: 10px;
+}
+form > input[type="email"] {
+  padding: 4px;
+  border-radius: 5px;
+  width: 350px;
+  margin-top: 10px;
+}
+
+form > input[type="radio"] {
+margin-top: 20px;
+}
+
+.button{
+  padding: 5px 40px 5px 40px;
+  background:#4CAF50;
+  color: white;
+  border-radius: 5px;
+  border: solid 1px rgb(219, 216, 218);
+  cursor: pointer;
+}
+
+/* shadow */
+.shadow{
+  height: 200px;
+  width: 200px;
+  background: red;
+  display:flow-root;
+  /* float:left; */
+  margin: 5px auto;
+  box-shadow: 10px 10px 10px black;
+
+}
+
+.mainbox{
+  width: 1200px;
+  height: 500px;
+  margin: 20px auto;
+
+}
+.box{
+  height: 410px;
+  width: 350px;
+  padding: 5px;
+  float: left;
+  border: solid 2px rgb(135, 135, 135);
+  margin-right: 30px;
+  position: relative;
+  box-shadow: 0px 0px 10px rgb(38, 38, 38);
+
+}
+
+.box .imagebox{
+  height: 200px;
+  width: 350px;
+  margin-bottom: 10px;
+  opacity: 100%;
+
+}
+.box:before{
+  content: '';
+  width: 175px;
+  height: 200px;
+  background: black;
+  opacity: 70%;
+  position: absolute;
+  top:0px;
+  left: 0px;
+  margin-top: 5px;
+  margin-left: 5px;
+  transition: all 5s ease;
+}
+
+.box:after{
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: black;
+  opacity: 70%;
+  position: absolute;
+  top:0px;
+  right:0px;
+  width: 175px;
+  height: 200px;
+  margin-top: 5px;
+  margin-right:5px;
+  transition: all 5s ease;
+}
+
+.box:hover.box:before{
+  width: 0px;
+  cursor: pointer;
+}
+.box:hover.box:after{
+  width: 0px;
+  cursor: pointer;
+}
+.box p{
+  color: rgb(47, 10, 26);
+  margin-bottom: 10px;
+}
+
+.click{
+  display: block;
+  background: black;
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+  margin-left: auto;
+  transition: all 2s ease;
+  }
+
+  .click:hover {
+    background: orange;
+    color: black;
+    font-weight: bold;
+  }
